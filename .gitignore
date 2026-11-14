@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# C++ / CMake
+build/
+bin/
+*.o
+*.a
+*.so
+*.out
+compile_commands.json
+.cache/
+
+# Data & Sensitive / Temporary files
+*.log
+*.tmp
+*.csv
+*.parquet
+*.h5
+*.pt
+*.onnx
+
+# Node / Web
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+*.tsbuildinfo
+.playwright-cli/
+
+# Prompts, Agent Instructions & Secrets
+PROMPT_*.md
+SYSTEM_PROMPT_*.md
+*.prompt.md
+AGENTS.md
+.linear.toml
+.env*
+
